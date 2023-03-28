@@ -1,17 +1,17 @@
 - links:
-  - name: Pricing
-    link: /pricing/
+  - name: Precios
+    link: /precios/
   - name: Blog
     link: /blog/
-  - name: About
-    link: /about/
-  - name: Contact
-    link: /contact/
+  - name: Sobre nosotros
+    link: /sobre-nosotros/
+  - name: Contacto
+    link: /contacto/
 - links:
-  - name: Login
+  - name: Iniciar sesión
     link: /
     new_window: true
-  - name: Sign Up
+  - name: Registrarse
     link: /
     new_window: true
   - name: Docs
