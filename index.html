@@ -2,95 +2,77 @@
 title: Cobrofacil.es
 description: Que los pequeños impagos no paren tu negocio
 ---
-<section class="hero">
-  <div class="text-container">
-    <h1 class="editable">Cobrofacil.es</strong></h1>
-    <p class="subtext editable">Que los pequeños impagos no paren tu negocio.</p>
-    <div class="cta button alt"><a href="{{ site.baseurl }}/contact/">Get Started Free</a></div>
-    <div>
-      <img src="{{ site.baseurl }}/images/dashboard.png" alt="Screenshot" class="screenshot editable" />
-    </div>
-  </div>
-</section>
-
-<div class="content">
-	<section>
-		<div class="container flex">
-			<div class="text editable">
-				<h2>How can we <strong>double</strong> our sales revenue?</h2>
-				<p>Hydra learns your business. By analyzing your sales data, Hydra optimizes your sales process and show you where you should be spending your resources. </p>
-			</div>
-			<div class="image">
-				<img src="{{ site.baseurl }}/images/dashboard.png" alt="Screenshot" class="screenshot editable" />
-			</div>
-		</div>
-	</section>
-
-	<section>
-		<div class="container flex">
-			<div class="text editable">
-				<h2>How can I <strong>keep track</strong> of my sales team?</h2>
-				<p>Hydra learns your business. By analyzing your sales data, Hydra optimizes your sales process and show you where you should be spending your resources.</p>
-			</div>
-			<div class="image">
-				<img src="{{ site.baseurl }}/images/dashboard.png" alt="Screenshot" class="screenshot editable" />
-			</div>
-		</div>
-	</section>
-
-	<section>
-		<div class="container flex">
-			<div class="text editable">
-				<h2>How can I <strong>forecast</strong> the next 90 days?</h2>
-				<p>Hydra learns your business. By analyzing your sales data, Hydra optimizes your sales process and show you where you should be spending your resources.</p>
-			</div>
-			<div class="image">
-				<img src="{{ site.baseurl }}/images/dashboard.png" alt="Screenshot" class="screenshot editable" />
-			</div>
-		</div>
-	</section>
-
-	<section class="testimonial">
-		<div class="container flex">
-			<div class="testimonial-block">
-				<div class="square-image"><img src="https://source.unsplash.com/6anudmpILw4/600x400" alt="Jim James" class="editable"></div>
-				<blockquote>
-					<p class="editable">Hydra has shaped the business we have today. We have a repeatable sales process and a strategy to scale our team. I recommend Hydra to any business looking to improve their sales.</p>
-					<p class="editable author">Jim James - CEO of Global Corp.</p>
-				</blockquote>
-			</div>
-		</div>
-	</section>
-
-	<section class="bottom-cta">
-		<h2 class="editable"><strong>Improve</strong> your sales process today</h2>
-		<div class="button alt"><a href="#">Get Started Free</a></div>
-	</section>
-</div>
-
----
-title: Cobrofacil.es
-description: Que los pequeños impagos no paren tu negocio
----
 
 <style>
-.google-form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 2rem 0;
-}
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 
-.google-form iframe {
-  max-width: 100%;
-  width: 100%;
-  min-height: 414px;
-}
+  .text-container {
+    max-width: 800px;
+  }
+
+  .content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 0;
+  }
+
+  .text, .image {
+    flex: 1;
+    padding: 1rem;
+  }
+
+  .testimonial-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .bottom-cta {
+    text-align: center;
+    padding: 3rem 0;
+  }
+
+  .button.alt {
+    display: inline-block;
+    margin-top: 1rem;
+  }
+
+  .google-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+  }
+
+  .google-form iframe {
+    max-width: 100%;
+    width: 100%;
+    min-height: 414px;
+  }
+
+  @media (max-width: 767px) {
+    .container {
+      flex-direction: column;
+    }
+  }
 </style>
 
 <section class="hero">
   <div class="text-container">
-    <h1 class="editable">Cobrofacil.es</strong></h1>
+    <h1 class="editable">Cobrofacil.es</h1>
     <p class="subtext editable">Que los pequeños impagos no paren tu negocio.</p>
     <div class="cta button alt"><a href="{{ site.baseurl }}/contact/">Get Started Free</a></div>
     <div>
@@ -100,11 +82,62 @@ description: Que los pequeños impagos no paren tu negocio
 </section>
 
 <div class="content">
-  <!-- your content sections here -->
+  <section>
+    <div class="container flex">
+      <div class="text editable">
+        <h2>How can we <strong>double</strong> our sales revenue?</h2>
+        <p>Hydra learns your business. By analyzing your sales data, Hydra optimizes your sales process and show you where you should be spending your resources. </p>
+      </div>
+      <div class="image">
+        <img src="{{ site.baseurl }}/images/dashboard.png" alt="Screenshot" class="screenshot editable" />
+      </div>
+    </div>
+  </section>
 
-  <!-- add the Google Form iframe here -->
-  <div class="google-form">
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfr71v7xCoSpBS1l7raARLmNw3RlmBSwrNjhTy2eBIQ7Sf7iQ/viewform?embedded=true" width="640" height="414" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
-  </div>
+  <section>
+    <div class="container flex">
+      <div class="text editable">
+        <h2>How can I <strong>keep track</strong> of my sales team?</h2>
+        <p>Hydra learns your business. By analyzing your sales data, Hydra optimizes your sales process and show you where you should be spending your resources.</p>
+      </div>
+      <div class="image">
+        <img src="{{ site.baseurl }}/images/dashboard.png" alt="Screenshot" class="screenshot editable" />
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container flex">
+      <div class="text editable">
+	      <h2>How can I <strong>forecast</strong> the next 90 days?</h2>
+        <p>Hydra learns your business. By analyzing your sales data, Hydra optimizes your sales process and show you where you should be spending your resources.</p>
+      </div>
+      <div class="image">
+        <img src="{{ site.baseurl }}/images/dashboard.png" alt="Screenshot" class="screenshot editable" />
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonial">
+    <div class="container flex">
+      <div class="testimonial-block">
+        <div class="square-image"><img src="https://source.unsplash.com/6anudmpILw4/600x400" alt="Jim James" class="editable"></div>
+        <blockquote>
+          <p class="editable">Hydra has shaped the business we have today. We have a repeatable sales process and a strategy to scale our team. I recommend Hydra to any business looking to improve their sales.</p>
+          <p class="editable author">Jim James - CEO of Global Corp.</p>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <section class="bottom-cta">
+    <h2 class="editable"><strong>Improve</strong> your sales process today</h2>
+    <div class="button alt"><a href="#">Get Started Free</a></div>
+
+    <div class="google-form">
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfr71v7xCoSpBS1l7raARLmNw3RlmBSwrNjhTy2eBIQ7Sf7iQ/viewform?embedded=true" width="640" height="414" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+    </div>
+  </section>
 </div>
+
 
