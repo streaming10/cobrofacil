@@ -1,39 +1,40 @@
-- links:
-  - name: Precios
-    link: /precios/
-  - name: Blog
-    link: /blog/
+#- links:
+#  - name: Precios
+#    link: /precios/
+#  - name: Blog
+#    link: /blog/
   - name: Sobre nosotros
     link: /sobre-nosotros/
   - name: Contacto
     link: /contacto/
-- links:
-  - name: Iniciar sesión
-    link: /
-    new_window: true
-  - name: Registrarse
-    link: /
-    new_window: true
-  - name: Docs
-    link: /
-    new_window: true
-  - name: Status
-    link: /
-    new_window: true
-- links:
-  - name: Facebook
-    link: https://facebook.com/cloudcannon/
-    new_window: true
-    social_icon: Facebook
-  - name: Twitter
-    link: https://twitter.com/cloudcannon/
-    social_icon: Twitter
-    new_window: true
-  - name: YouTube
-    link: https://youtube.com/cloudcannon/
-    social_icon: YouTube
-    new_window: true
-  - name: RSS
-    link: /feed.xml
-    social_icon: RSS
-    new_window: false
+#- links:
+#  - name: Iniciar sesión
+#    link: /
+#    new_window: true
+#  - name: Registrarse
+#    link: /
+#    new_window: true
+#  - name: Docs
+#    link: /
+#    new_window: true
+#  - name: Status
+#    link: /
+#    new_window: true
+# - links:
+#  - name: Facebook
+#    link: https://facebook.com/cloudcannon/
+#    new_window: true
+#    social_icon: Facebook
+#  - name: Twitter
+#    link: https://twitter.com/cloudcannon/
+#    social_icon: Twitter
+#    new_window: true
+#  - name: YouTube
+#    link: https://youtube.com/cloudcannon/
+#    social_icon: YouTube
+#    new_window: true
+#  - name: RSS
+#    link: /feed.xml
+#    social_icon: RSS
+#    new_window: false
+
