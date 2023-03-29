@@ -1,5 +1,5 @@
 ---
-name: David Ruiz
+name: David Ruíz
 position: CTO
 image_path: https://source.unsplash.com/collection/139386/600x600?a=.png
 # twitter: CloudCannonApp
