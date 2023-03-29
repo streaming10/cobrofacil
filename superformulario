@@ -1,0 +1,125 @@
+<div class="contenedor">
+    <h1 class="logo"><span class="nombre-empresa">1. Acreedor</span> Servicios</h1>
+    <div class="wrapper animated bounceInLeft">
+      <div class="info-empresa">
+        <h3>Hola Servicios</h3>
+        <ul class="servicios">
+          <li><i class="fa fa-map-marker"></i> Calle Cualquiera, 44. 88880. Ciudad (Provincia)</li>
+          <li><i class="fa fa-mobile"></i> 555 555 000</li>
+          <li><i class="fa fa-envelope"></i> info@empresa.com</li>
+        </ul>
+      </div>
+      <div class="contacto">
+        <h3>Enviar Correo</h3>
+        <form class="formulario">
+          <p>
+            <label>Nombre</label>
+            <input type="text" name="nombre" required>
+          </p>
+          <p>
+            <label>Empresa</label>
+            <input type="text" name="empresa">
+          </p>
+          <p>
+            <label>Correo</label>
+            <input type="email" name="email" required>
+          </p>
+          <p>
+            <label>Teléfono</label>
+            <input type="text" name="teléfono" required>
+          </p>
+          <p class="full">
+            <label>Mensaje</label>
+            <textarea name="mensaje" required></textarea>
+          </p>
+          <p class="full">
+            <button class="boton-enviar">Enviar</button>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+
+<div class="contenedor">
+    <h1 class="logo"><span class="nombre-empresa">2. Deudor</span> Servicios</h1>
+    <div class="wrapper animated bounceInLeft">
+      <div class="info-empresa">
+        <h3>Hola Servicios</h3>
+        <ul class="servicios">
+          <li><i class="fa fa-map-marker"></i> Calle Cualquiera, 44. 88880. Ciudad (Provincia)</li>
+          <li><i class="fa fa-mobile"></i> 555 555 000</li>
+          <li><i class="fa fa-envelope"></i> info@empresa.com</li>
+        </ul>
+      </div>
+      <div class="contacto">
+        <h3>Enviar Correo</h3>
+        <form class="formulario">
+          <p>
+            <label>Nombre</label>
+            <input type="text" name="nombre" required>
+          </p>
+          <p>
+            <label>Empresa</label>
+            <input type="text" name="empresa">
+          </p>
+          <p>
+            <label>Correo</label>
+            <input type="email" name="email" required>
+          </p>
+          <p>
+            <label>Teléfono</label>
+            <input type="text" name="teléfono" required>
+          </p>
+          <p class="full">
+            <label>Mensaje</label>
+            <textarea name="mensaje" required></textarea>
+          </p>
+          <p class="full">
+            <button class="boton-enviar">Enviar</button>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+
+<div class="contenedor">
+    <h1 class="logo"><span class="nombre-empresa">3. Deuda</span> Servicios</h1>
+    <div class="wrapper animated bounceInLeft">
+      <div class="info-empresa">
+        <h3>Hola Servicios</h3>
+        <ul class="servicios">
+          <li><i class="fa fa-map-marker"></i> Calle Cualquiera, 44. 88880. Ciudad (Provincia)</li>
+          <li><i class="fa fa-mobile"></i> 555 555 000</li>
+          <li><i class="fa fa-envelope"></i> info@empresa.com</li>
+        </ul>
+      </div>
+      <div class="contacto">
+        <h3>Enviar Correo</h3>
+        <form class="formulario">
+          <p>
+            <label>Nombre</label>
+            <input type="text" name="nombre" required>
+          </p>
+          <p>
+            <label>Empresa</label>
+            <input type="text" name="empresa">
+          </p>
+          <p>
+            <label>Correo</label>
+            <input type="email" name="email" required>
+          </p>
+          <p>
+            <label>Teléfono</label>
+            <input type="text" name="teléfono" required>
+          </p>
+          <p class="full">
+            <label>Mensaje</label>
+            <textarea name="mensaje" required></textarea>
+          </p>
+          <p class="full">
+            <button class="boton-enviar">Enviar</button>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
