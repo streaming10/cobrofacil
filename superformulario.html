@@ -351,4 +351,32 @@
   .formbold-w-45 {
     width: 45%;
   }
+  
+  /* Media Queries */
+  @media screen and (max-width: 992px) {
+    .formbold-input-wrapp > div,
+    .formbold-input-flex {
+      flex-direction: column;
+    }
+
+    .formbold-input-wrapp > div > .formbold-form-input,
+    .formbold-input-flex > div {
+      width: 100%;
+    }
+
+    .formbold-input-wrapp > div > .formbold-form-input:not(:last-child),
+    .formbold-input-flex > div:not(:last-child) {
+      margin-bottom: 15px;
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    .formbold-main-wrapper {
+      padding: 24px;
+    }
+
+    .formbold-form-wrapper {
+      padding: 20px;
+    }
+  }
 </style>
