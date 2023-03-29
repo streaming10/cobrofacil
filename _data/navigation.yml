@@ -1,11 +1,11 @@
-- name: Precios
-  link: /precios/
-  new_window: false
-  highlight: false
-- name: Blog
-  link: /blog/
-  new_window: false
-  highlight: false
+#- name: Precios
+#  link: /precios/
+#  new_window: false
+#  highlight: false
+#- name: Blog
+#  link: /blog/
+#  new_window: false
+#  highlight: false
 - name: Sobre nosotros
   link: /sobre-nosotros/
   new_window: false
@@ -14,11 +14,11 @@
   link: /contacto/
   new_window: false
   highlight: false
-- name: Iniciar sesión
-  link: /
-  new_window: true
-  highlight: false
-- name: Registrarse
-  link: /
-  new_window: true
-  highlight: true
+#- name: Iniciar sesión
+#  link: /
+#  new_window: true
+#  highlight: false
+#- name: Registrarse
+#  link: /
+#  new_window: true
+#  highlight: true
