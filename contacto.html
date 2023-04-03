@@ -1,31 +1,125 @@
----
-title: Contacto
-heading: Ponte en contacto hoy mismo
-description: Nos encantaría ayudarte a mejorar la recuperación de tus deudas pendientes.
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contacto</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Nos encantaría ayudarte a mejorar la recuperación de tus deudas pendientes.">
+</head>
+<body>
+	<h1>Ponte en contacto hoy mismo</h1>
+	
+	<div class="map-wrapper">
+    <iframe src="https://www.google.com/maps/embed?pb=..." width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">Cobrofacil.es, recuperación de impagos, recuperación de deudas A Coruña</iframe>
+  </div>
 
-map:
-  latitude: -45.8787605
-	@@ -17,24 +17,24 @@
-		<input type="hidden" name="_to" value="support@example.com" />
-		<input type="text" name="_gotcha" style="display: none;">
-
-		<label for="name">Nombre completo</label>
-		<input type="text" name="name" id="name" placeholder="Enter your name..." />
-
-		<label for="email">Email </label>
-		<input type="email" name="email" id="email" placeholder="Enter your email..." required />
-
-		<label for="message">Mensaje</label>
-		<textarea name="message" id="message" placeholder="Enter your message..."></textarea>
-
-		<input type="submit" value="Send Message" />
-	</form>
-
-	<div class="contact-details">
-		<h3 class="editable">Dirección</h3>
-		<address><a target="_blank" href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">{{ page.map.address | replace: ", ", ", <br>" }}</a></address>
-
-		<h3 class="editable">Email</h3>
-		<p><a href="mailto:info@cobrofacil.es">info@cobrofacil.es</a></p>
-	</div>
+  <div class="formbold-main-wrapper">
+    <div class="formbold-form-wrapper">
+      <form action="https://formbold.com/s/980Zb" method="POST">
+      <div class="formbold-input-flex">
+  <div>
+    <label for="firstname" class="formbold-form-label"> Nombre </label>
+    <input
+      type="text"
+      name="Nombre"
+      id="firstname"
+      placeholder="Tu nombre"
+      class="formbold-form-input"
+    />
+  </div>
+  <div>
+    <label for="lastname" class="formbold-form-label"> Apellidos </label>
+    <input
+      type="text"
+      name="Apellidos"
+      id="lastname"
+      placeholder="Tus apellidos"
+      class="formbold-form-input"
+    />
+  </div>
 </div>
+
+<div class="formbold-input-flex">
+  <div>
+    <label for="email" class="formbold-form-label"> Email </label>
+    <input
+      type="email"
+      name="email"
+      id="email"
+      placeholder="tuemail@email.com"
+      class="formbold-form-input"
+    />
+  </div>
+  <div>
+    <label for="phone" class="formbold-form-label"> Teléfono </label>
+    <input
+      type="text"
+      name="phone"
+      id="phone"
+      placeholder="(+34) 600 600 600"
+      class="formbold-form-input"
+    />
+  </div>
+</div>
+
+<div class="formbold-input-radio-wrapper">
+  <label for="jobtitle" class="formbold-form-label"> ¿Qué estás buscando? </label>
+
+  <div class="formbold-radio-flex">
+    <div class="formbold-radio-group">
+      <label class="formbold-radio-label">
+        <input class="formbold-input-radio" type="radio" name="jobtitle" value="informacion">
+        Información
+        <span class="formbold-radio-checkmark"></span>
+      </label>
+    </div>
+
+    <div class="formbold-radio-group">
+      <label class="formbold-radio-label">
+        <input class="formbold-input-radio" type="radio" name="jobtitle" value="recuperar_impago">
+        Recuperar un impago
+        <span class="formbold-radio-checkmark"></span>
+      </label>
+    </div>
+
+    <div class="formbold-radio-group">
+      <label class="formbold-radio-label">
+        <input class="formbold-input-radio" type="radio" name="jobtitle" value="abonar_impago">
+        Abonar un impago
+        <span class="formbold-radio-checkmark"></span>
+      </label>
+    </div>
+
+    <div class="formbold-radio-group">
+      <label class="formbold-radio-label">
+        <input class="formbold-input-radio" type="radio" name="jobtitle" value="otros">
+        Otros
+        <span class="formbold-radio-checkmark"></span>
+      </label>
+    </div>
+  </div>
+</div>
+
+<div>
+  <label for="message" class="formbold-form-label"> Mensaje </label>
+  <textarea
+    rows="6"
+    name="message"
+    id="message"
+    placeholder="Escribe tu mensaje"
+    class="formbold-form-input"
+  ></textarea>
+</div>
+
+<button class="formbold-btn">
+  Enviar Mensaje
+</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
