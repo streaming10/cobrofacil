@@ -4,6 +4,7 @@ layout: default
 <div class="content">
 	<section class="page">
 		<div class="container {% if page.full_width %}max-container{% endif %}">
+				<h2>{{ page.title }}</h2>
 			{% if page.heading %}
 				<h2>{{ page.heading }}</h2>
 			{% elsif page.title and page.layout != 'archive' %}
