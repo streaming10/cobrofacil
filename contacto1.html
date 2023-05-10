@@ -1,0 +1,25 @@
+---
+title: Contacto
+heading: Ponte en contacto hoy mismo
+description: Nos encantaría ayudarte a mejorar la recuperación de tus deudas pendientes.
+map:
+  latitude: -45.8787605
+Expand All
+	@@ -17,24 +17,24 @@
+		<input type="hidden" name="_to" value="support@example.com" />
+		<input type="text" name="_gotcha" style="display: none;">
+		<label for="name">Nombre completo</label>
+		<input type="text" name="name" id="name" placeholder="Enter your name..." />
+		<label for="email">Email </label>
+		<input type="email" name="email" id="email" placeholder="Enter your email..." required />
+		<label for="message">Mensaje</label>
+		<textarea name="message" id="message" placeholder="Enter your message..."></textarea>
+		<input type="submit" value="Send Message" />
+	</form>
+	<div class="contact-details">
+		<h3 class="editable">Dirección</h3>
+		<address><a target="_blank" href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">{{ page.map.address | replace: ", ", ", <br>" }}</a></address>
+		<h3 class="editable">Email</h3>
+		<p><a href="mailto:info@cobrofacil.es">info@cobrofacil.es</a></p>
+	</div>
+</div>
