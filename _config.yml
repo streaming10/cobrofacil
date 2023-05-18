@@ -23,7 +23,7 @@ social:
 # -----
 # Build
 
-timezone: Etc/UTC
+timezone: Etc/GMT-1
 
 collections:
   staff_members:
