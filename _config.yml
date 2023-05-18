@@ -2,8 +2,8 @@
 # Site
 
 title: Cobrofacil.es | Recuperación de deudas
-url: "https://proud-alligator.cloudvent.net"
-baseurl:
+url: "https://cobrofacil.es"
+baseurl: "https://cobrofacil.es"
 google_analytics_key:
 google_maps_javascript_api_key:
 disqus_shortname:
@@ -16,9 +16,9 @@ author:
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: Hydra Template
+  name: Cobrofacil.es Template
   links:
-    - https://github.com/CloudCannon/hydra-jekyll-template
+    - https://cobrofacil.es
 
 # -----
 # Build
